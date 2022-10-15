@@ -1,0 +1,84 @@
+.hiring-priority-main-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.loader{
+    align-self: center;
+}
+
+.hiring-priority-select-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.hiring-priority-select{
+    height: 35px;
+    width: 175px;
+    max-height: 35px;
+    max-width: 175px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.hiring-priority-button{
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 0 0 black;
+    transform: translate(-3px, -3px);
+    margin-left: 10px;
+    transition: 0.25s;
+}
+
+.hiring-priority-button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.hiring-priority-button:active{
+    box-shadow: none;
+    transform: translate(0px, 0px);
+}
+
+.hiring-priority-nurses-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+    justify-content: center;
+}
+
+.hiring-priority-nurse-card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hiring-priority-nurse-id{
+    align-self: center;
+    justify-self: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
